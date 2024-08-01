@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/
+    password: postgres
+    username: postgres
+  jpa:
+    properties:
+      hibernate:
+        default_schema: learning_platform
